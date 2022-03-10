@@ -27,7 +27,9 @@ string op = Console.ReadLine();
         break;
     case "%": result = num1 % num2;
         break;
-    case "p": result = 
+    case "p":
+        Convert.ToString(result) = string(Convert.ToString(num1) + Convert.ToString(num2));
+        break;
    
 }
 Console.WriteLine("Result = " + result);
