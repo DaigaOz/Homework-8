@@ -21,14 +21,13 @@ string op = Console.ReadLine();
         break;
     case "-": result = num1 - num2;
         break;
-    case "/": result = num1 / num2;
+    case "/":  result = num1 / num2;
         break;
-    case "*": result = num1 * num2;
+    case "*":  result = num1 * num2;
         break;
-    case "%": result = num1 % num2;
+    case "%": result = num1 / num2 % 100;
         break;
-    case "p":
-        Convert.ToString(result) = string(Convert.ToString(num1) + Convert.ToString(num2));
+    case "p": result = ;
         break;
    
 }
