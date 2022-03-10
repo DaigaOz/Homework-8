@@ -25,14 +25,9 @@ string op = Console.ReadLine();
         break;
     case "*": result = num1 * num2;
         break;
-    case "%": result = num1 / num2 * 100;
+    case "%": result = num1 % num2;
         break;
-    case "p": result =
-        break;
-    case "b": result =
-        break;
-    case "s": result =
-        break;
-
+    case "p": result = 
+   
 }
 Console.WriteLine("Result = " + result);
